@@ -1,0 +1,10 @@
+{
+  "presets": ["@babel/preset-env"],
+  "plugins": [
+    "@babel/plugin-proposal-object-rest-spread",
+    "@babel/plugin-transform-async-to-generator"
+  ]
+}
+
+// preset-env entende qual é o ambiente que está sendo trabalhado e converte
+// as features dos ES6/7/8 para as versões necessárias
