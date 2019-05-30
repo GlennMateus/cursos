@@ -7,11 +7,11 @@ export default class Main extends Component {
   }
 
   loadProducts = async () => {
-    const response = await api.get(`/products`);
-    console.log(`: Main -> loadProducts -> response`, response);
+    const response = await api.get('/products');
+    console.log(response);
   };
 
   render() {
-    return <h1>Hello Rocketseat</h1>;
+    return <h1>Hello Glenn</h1>;
   }
 }
