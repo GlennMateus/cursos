@@ -1,7 +1,11 @@
 header#main-header {
   height: 60px;
   width: 100%;
-  background: #da552f;
+  background: linear-gradient(
+    to bottom right,
+    rgb(128, 17, 219),
+    rgb(160, 99, 209)
+  );
   font-size: 18px;
   font-weight: bold;
   color: white;
