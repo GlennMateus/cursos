@@ -1,4 +1,4 @@
-## Projeto Cursos - Courses Project
+## Rocketseat
 
 ## Descrição em português - Portuguese description
 - Este repositório contém uma coletânea de projetos criados a partir de video aulas postadas no canal https://station.rocketseat.com.br/
