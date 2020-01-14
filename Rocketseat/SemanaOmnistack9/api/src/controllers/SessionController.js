@@ -7,7 +7,9 @@ module.exports = {
   async store(req, res) {
     const { email } = req.body;
     // verifica se o usuário existe e preenche a variável 'user'
+    console.log(email)
     let user = await User.findOne({ email });
+    console.log(user)
     if (!user) {
       // caso não exista então cria um novo usuário e preenche a variável 'user'
       user = await User.create({ email });

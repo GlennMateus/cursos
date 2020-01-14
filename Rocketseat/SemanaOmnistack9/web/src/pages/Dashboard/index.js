@@ -13,7 +13,7 @@ export default function Dashboard() {
   const user_id = localStorage.getItem("user");
   const socket = useMemo(
     () =>
-      socketio("http://192.168.153.2:3001", {
+      socketio("http://192.168.0.52:3001", {
         query: { user_id }
       }),
     [user_id]

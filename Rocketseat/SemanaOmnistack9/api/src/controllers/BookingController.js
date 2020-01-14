@@ -13,12 +13,13 @@ module.exports = {
       spot: spot_id,
       date
     });
-
+    console.log(`RESERVA: \n ${booking}`)
     await booking
       .populate("spot")
       .populate("user")
       .execPopulate();
-
+      
+      console.log(`RETORNO: \n ${booking}`)
     const ownerSocket = req.connectedUsers[booking.spot.user];
 
     if (ownerSocket) {
