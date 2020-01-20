@@ -1,0 +1,79 @@
+li.dev-item {
+  background: #fff;
+  box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.02);
+  border-radius: 2px;
+  padding: 20px;
+}
+
+li.dev-item header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+li.dev-item header img {
+  width: 54px;
+  height: 54px;
+  border-radius: 50%;
+}
+
+li.dev-item header .user-info {
+  margin-left: 10px;
+}
+
+.user-info .user-basic-info {
+  display: block;
+  font-size: 16px;
+  color: #333;
+}
+
+.user-info .user-basic-info div {
+  display: contents;
+}
+input {
+  border: 2px solid #dadada;
+  border-radius: 4px;
+  height: 25px;
+  width: 80%;
+}
+input:focus {
+  outline: none;
+  border-color: #9ecaed;
+  box-shadow: 0 0 15px #9ecaed;
+}
+.user-info .user-basic-info span {
+  position: relative;
+  left: 45px;
+  padding: 3px 5px;
+  color: #fff;
+  font-size: 13px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.user-info .user-basic-info span[data-text="false"] {
+  background-color: #f84545;
+}
+.user-info .user-basic-info span[data-text="true"] {
+  background-color: #3cf73c;
+}
+.user-info .user-techs {
+  font-size: 13px;
+  color: #999;
+  margin-top: 2px;
+}
+
+li.dev-item div {
+  color: #666;
+  font-size: 14px;
+  margin: 8px 0;
+}
+
+li.dev-item a {
+  color: #8e4dff;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+li.dev-item a:hover {
+  color: #5a2ea6;
+}
